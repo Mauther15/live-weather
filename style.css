@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 55px);
+    text-transform: capitalize;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #00ff4f61;
+    cursor: pointer;
+    float: right;
+}
+
+.img-search {
+    width: 20px;
+}
+
+.informacoes-cidade {
+    margin-top: 20px;
+}
+
+.cidade {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temperatura {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.info-especial {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.clima {
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.umidade {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+}

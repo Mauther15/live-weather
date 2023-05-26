@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Clíma Atual</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <input id="pesquisar" placeholder="Digite o nome de uma cidade:">
+        <button onclick="cliqueNoBotao()" id="buscar">
+            <img class="img-search" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <div class="informacoes-cidade">
+
+            <h2 class="cidade"></h2>
+
+            <p class="temperatura"></p>
+
+            <div class="info-especial">
+                <img class="img-clima" src="">
+                <p class="clima"></p>
+            </div><!--informacões que vão mudar com JS-->
+
+            <p class="umidade"></p>
+        </div> <!--Informaçoes da Cidade-->
+
+    </div><!--Container-->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
